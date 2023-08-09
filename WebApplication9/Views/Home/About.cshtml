@@ -1,0 +1,26 @@
+﻿@using WebApplication9.Models.Sınıflar
+@model List<BitkiDurum>
+
+<div style="text-align: center;">
+    <h1></h1>
+</div>
+
+
+<div>
+    @foreach (var x in Model)
+    {
+
+        <p style="font-size: 16px; color: crimson; font-weight: bold;">@x.BitkiAdi</p>
+         <p style="font-size: 16px; color: black; font-weight: bold;">@x.KorumaDurumu</p>
+        <p style="font-size: 16px; color: black; font-weight: bold;">@x.TehditDurumu</p>
+
+    }
+
+</div>
+
+
+
+
+
+
+
